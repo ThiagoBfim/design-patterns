@@ -18,7 +18,6 @@ import br.org.project.design_patterns.structural.adapter.pattern.ISpeedCar;
  *        pode realizar essa ação  de adaptar a interface para os diferentes tipos de implementações.
  *
  */
-
 public class TestAdapter {
 
     public static void main(String[] args) {
