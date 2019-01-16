@@ -1,12 +1,12 @@
 package br.org.project.design_patterns.structural.adapter;
 
-import br.org.project.design_patterns.structural.adapter.old.ICar;
 import br.org.project.design_patterns.structural.adapter.old.CarImpl;
+import br.org.project.design_patterns.structural.adapter.old.ICar;
 import br.org.project.design_patterns.structural.adapter.pattern.CarToSpeedCarAdapter;
 import br.org.project.design_patterns.structural.adapter.pattern.ISpeedCar;
 
 /**
- * Problema:
+ * Pattern:
  *  Antes:      Há uma empresa que produz apenas carros. Para isso existe uma aplicação que funciona 100% desenvolvendo apenas carros.
  *  Problema:   A empresa sofreu um ajuste e agora esses carros também poderão ser carros de corrida. A empresa não quer peder toda
  *              a base de modelos antiga, ela pretende manter a mesma produção e incluir a produção de carros de corrida também.

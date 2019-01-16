@@ -11,7 +11,6 @@ import java.util.Arrays;
  * Pattern:
  *  Problema:   Está ocorrendo um jogo de futebol, na qual as pessoas podem se inscrever. Assim que for feita a inscrição, os comentários do jogo serão enviados para essa pesssoa.
  *              É necessário criar uma forma de notificar varios usuarios quando houver uma alteração.
- *
  *  Solução:    Criar uma classe que seja responsável por receber os comentários e repassar para os observadores.
  *
  *  Observable Pattern :
@@ -28,7 +27,7 @@ public class TestObservable {
 
     public static void main(String[] args) {
         CommentaryObjectObservable obj = new CommentaryObjectObservable("Jogo de Futebol");
-        SMSObservable observer = new SMSObservable(obj, "Joaõ");
+        SMSObservable observer = new SMSObservable(obj, "Joaõ Pereira");
         observer.subscribe();
 
         EmailObservable emailSubscribe1 = new EmailObservable(obj, "Thiago");

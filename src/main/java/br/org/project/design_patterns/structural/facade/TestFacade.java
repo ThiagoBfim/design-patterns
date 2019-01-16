@@ -5,7 +5,7 @@ import br.org.project.design_patterns.structural.facade.old.IDataBase;
 import br.org.project.design_patterns.structural.facade.pattern.DataBaseFacade;
 
 /**
- * Problema:
+ * Pattern:
  *  Antes:      Para executar um script é necessário implementar uma interface complexa e todos os seus metodos.
  *  Problema:   É necessário criar executar um script. Há uma interface complexa e é necessário que essa interface seja mais simples.
  *  Solução:    Criar uma classe que encapsula a implementação da interface complexa.
