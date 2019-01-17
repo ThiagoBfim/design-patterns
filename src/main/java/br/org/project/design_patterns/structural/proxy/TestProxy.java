@@ -7,6 +7,18 @@ import br.org.project.design_patterns.structural.proxy.pattern.ContactListProxyI
 
 import java.util.List;
 
+/**
+ * Pattern:
+ *  Problema:   Os empregados possuem uma lista de contatos, entretanto essa lista de contantos nem sempre é utilizada.
+ *              Então, o ideal seria que essa lista só fosse carregada quando solicitasse os contatos.
+ *  Solução:    Criar o padrão proxy, semelhante ao utilizado pelo Hibernate.
+ *
+ *  Observable Pattern :
+ *      * Existem varios tipos diferentes de padrão proxy. O utilizado nesse exemplo é o Virtual Proxy.
+ *      Ele deve ser utilizando quando a criação de objetos é algo caro, então o ideal é carregar por demanda.
+ *
+ * Note: Existem varias derivações do padrão proxy. O utilizado nesse exemplo é o Virtual Proxy.
+ */
 public class TestProxy {
 
     public static void main(String[] args) {
