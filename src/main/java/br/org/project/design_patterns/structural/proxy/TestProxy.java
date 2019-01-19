@@ -13,7 +13,7 @@ import java.util.List;
  *              Então, o ideal seria que essa lista só fosse carregada quando solicitasse os contatos.
  *  Solução:    Criar o padrão proxy, semelhante ao utilizado pelo Hibernate.
  *
- *  Observable Pattern :
+ *  Proxy Pattern :
  *      * Existem varios tipos diferentes de padrão proxy. O utilizado nesse exemplo é o Virtual Proxy.
  *      Ele deve ser utilizando quando a criação de objetos é algo caro, então o ideal é carregar por demanda.
  *
