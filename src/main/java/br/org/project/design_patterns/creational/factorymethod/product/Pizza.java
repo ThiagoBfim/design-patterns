@@ -9,7 +9,7 @@ public abstract class Pizza {
     }
 
     public void cortarPizza() {
-        System.out.println("Pizza foi cortada");
+        System.out.println("Pizza foi cortada.");
     }
 
     public void embalarPizza() {

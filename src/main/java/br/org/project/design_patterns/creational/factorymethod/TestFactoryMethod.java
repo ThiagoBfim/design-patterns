@@ -10,6 +10,7 @@ public class TestFactoryMethod {
         FactoryPizza factoryPizza = new NYFactoryPizza();
         factoryPizza.oderPizza("Cheese");
 
+        System.out.println();
         factoryPizza = new BrasiliaFactoryPizza();
         factoryPizza.oderPizza("Hot Dog");
 
