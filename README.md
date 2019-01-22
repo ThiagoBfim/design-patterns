@@ -6,8 +6,10 @@ Patterns:
  * Behavior
     * Flyweight
     * Observable
+    * Template Method
  * Creational
     * Builder
+    * Factory Method
  * Structural
     * Adapter
     * Bridge
