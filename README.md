@@ -1,11 +1,12 @@
 # Design Patterns
 
-Projeto contendo alguns design patterns utilizando a linguagem Java.
+Projeto contendo alguns padrões de projeto utilizando a linguagem Java.
 
 Patterns:
  * Behavior
     * Flyweight
     * Observable
+    * Strategy
     * Template Method
  * Creational
     * Builder
@@ -13,6 +14,7 @@ Patterns:
  * Structural
     * Adapter
     * Bridge
+    * Decorator
     * Facade
     * Proxy
 
